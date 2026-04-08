@@ -7,10 +7,10 @@ import models.Caminhao;
 
 public class Main {
     public static void main(String[] args){
-        Caminhao caminhao1 = new Caminhao();
+        CarroPasseio carro1 = new CarroPasseio();
         
-        caminhao1.SolicitarDados();
-        caminhao1.MostrarDados();
+        carro1.SolicitarDados();
+        carro1.MostrarDados();
     }
     
 }
